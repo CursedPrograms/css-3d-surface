@@ -3,52 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      margin: 0;
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      background: #111;
-      color: #fff;
-      font-family: 'Courier New', monospace;
-    }
-
-    .doom-container {
-      position: relative;
-      width: 400px;
-      height: 200px;
-      perspective: 800px;
-    }
-
-    .doom-box {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background: #222;
-      box-shadow: inset 0 0 30px 5px #000;
-      transform-style: preserve-3d;
-      animation: rotateDoom 10s infinite linear;
-    }
-
-    .doom-wall {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(to bottom, #444 0%, #222 100%);
-    }
-
-    @keyframes rotateDoom {
-      0% {
-        transform: rotateX(0) rotateY(0) rotateZ(0);
-      }
-      100% {
-        transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="index.css">
   <title>Doom-like Graphics</title>
 </head>
 <body>
