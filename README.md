@@ -24,7 +24,13 @@
 # CSS 3D Surface
 
 <br>
+<div align="center">
+© Cursed Entertainment
+</div>
+<br>
+<div align="center">
 <a href="https://cursed-entertainment.itch.io/" target="_blank">
     <img src="https://github.com/CursedPrograms/cursedentertainment/raw/main/images/logos/logo-wide-grey.png"
-        alt="CursedEntertainment Logo">
+        alt="CursedEntertainment Logo" style="width:250px;">
 </a>
+</div>
